@@ -1,0 +1,95 @@
+import { Ticket } from './types';
+
+export const fakeListings: Ticket[] = [
+  {
+    ticketId: '000123',
+    ticketTitle: 'Office is run out of printing paper',
+    ticketOwner: 'Adam Jie',
+    ticketSite: 'New Covenant Church, Agodi',
+    ticketStatus: 'Open',
+    ticketAssignedTo: 'Tolu Samson',
+    ticketPriority: 'High',
+    ticketLastUpdated: new Date(),
+  },
+  {
+    ticketId: '000234',
+    ticketTitle: 'Request for bibles and tracts',
+    ticketOwner: 'Pastor Bajide',
+    ticketSite: 'New Covenant Church, Chenai, India',
+    ticketStatus: 'Open',
+    ticketAssignedTo: 'Wole Emmanuel',
+    ticketPriority: 'Very High',
+    ticketLastUpdated: new Date(),
+  },
+  {
+    ticketId: '000345',
+    ticketTitle: 'Our web site needs upgrade',
+    ticketOwner: 'Revened Paul Jinadu',
+    ticketSite: 'New Covenant Church, London',
+    ticketStatus: 'In Progress',
+    ticketAssignedTo: 'Technical Team',
+    ticketPriority: 'Medium',
+    ticketLastUpdated: new Date(),
+  },
+  {
+    ticketId: '000456',
+    ticketTitle: 'We need Youtube platform',
+    ticketOwner: 'Pastor Kaith',
+    ticketSite: 'New Covenant Church, Minnesota',
+    ticketStatus: 'New',
+    ticketAssignedTo: 'Unassigned',
+    ticketPriority: 'Medium',
+    ticketLastUpdated: new Date(),
+  },
+  {
+    ticketId: '000567',
+    ticketTitle: "Bimbo's My account is locked ",
+    ticketOwner: 'Pastor Dare Alaanu',
+    ticketSite: 'New Covenant Church, Hq',
+    ticketStatus: 'Open',
+    ticketAssignedTo: 'Kola Ologbon',
+    ticketPriority: 'High',
+    ticketLastUpdated: new Date(),
+  },
+];
+
+export const fakeMyTickets: Ticket[] = [
+  {
+    ticketId: '000234',
+    ticketTitle: 'Request for bibles and tracts',
+    ticketOwner: 'Pastor Bajide',
+    ticketSite: 'New Covenant Church, Chenai, India',
+    ticketStatus: 'Open',
+    ticketAssignedTo: 'Wole Emmanuel',
+    ticketPriority: 'Very High',
+    ticketLastUpdated: new Date(),
+  },
+  {
+    ticketId: '000345',
+    ticketTitle: 'Our web site needs upgrade',
+    ticketOwner: 'Revened Paul Jinadu',
+    ticketSite: 'New Covenant Church, London',
+    ticketStatus: 'In Progress',
+    ticketAssignedTo: 'Technical Team',
+    ticketPriority: 'Medium',
+    ticketLastUpdated: new Date(),
+  },
+];
+
+export const fakeTicketDetail: Ticket[] = [
+  {
+    ticketId: '000123',
+    ticketTitle: 'Office is run out of printing paper',
+    ticketDecription: 'We need 1000 boundles of printing paper and a container load of office materials for the sake of lost sheeps',
+    ticketCreated: new Date(),
+    ticketApprovedBy: 'Pastor Lee Wu',
+    ticketOwner: 'Adam Jie',
+    ticketOwnerEmail: 'adam_jie@ncclogistics.org',
+    ticketOwnerPhone: '2348021456',
+    ticketSite: 'New Covenant Church, China City',
+    ticketStatus: 'In Progress',
+    ticketAssignedTo: 'Dr. Oh',
+    ticketPriority: 'High',
+    ticketLastUpdated: new Date(),
+  },
+];
